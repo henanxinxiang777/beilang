@@ -1,0 +1,15 @@
+.bl-2 .row { font-size: 16px; background-color: #01B180; height: 27px; line-height: 27px; color: #fff; }
+.bl-2 ul { font-size: 16px; border: 1px solid #01B180; border-left: none; border-right: none; margin-top: 5px; }
+.bl-2 ul li { width: 25%; border-right: 1px solid #ccc; float: left; margin: 20px 0; height: 77px; line-height: 77px; text-align: center; }
+.bl-2 ul li p { height: 20px; line-height: 20px; }
+.bl-2 ul li span { line-height: 0; padding: 8px 12px; margin-right: 10px; border: 1px solid #01B180; color: #01B180; }
+.bl-2 ul li:nth-child(4) { border: none; }
+.bl-2 ul .bl-10 { line-height: normal; }
+.bl-2 ul .bl-10 .span { font-size: 16px; margin: 0 5px; border-radius: 50%; width: 24px; height: 24px; }
+.bl-2 ul .bl-10 .span:before { position: relative; left: -8px; top: 3px; }
+.bl-2 ul .bl-10 input { margin-bottom: 5px; margin-top: 20px; width: 60px; height: 25px; border: 1px solid #01B180; }
+.bl-2 ul .bl-10 p { color: #01B180; }
+.bl-2 ul .bl-10 .spc { line-height: normal; display: inline-block; width: 16px; height: 16px; padding: 0; border: none; margin-top: 5px; color: #f00; }
+.bl-2 ul:nth-child(2) { border-top: none; }
+
+/*# sourceMappingURL=bl-2.css.map */

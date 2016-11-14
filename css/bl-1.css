@@ -1,0 +1,11 @@
+.bl-1 .row { margin-bottom: 10px; }
+.bl-1 .row ul { padding-top: 10px; }
+.bl-1 .row ul li { float: left; }
+.bl-1 .row ul li div button { width: 100%; padding: 0; font-size: 12px; height: 20px; padding-left: 5px; text-align: left; }
+.bl-1 .row ul li div button span { float: right; margin: 5px; }
+.bl-1 #carousel-example-generic { padding-top: 10px; }
+.bl-1 .bl-1btm { height: 30px; background-color: #01B180; }
+.bl-1 .bl-1btm ul li { color: #fff; line-height: 30px; padding: 0; float: left; text-align: center; }
+.bl-1 .bl-1btm .row img { border: 1px solid #ccc; margin-top: 10px; }
+
+/*# sourceMappingURL=bl-1.css.map */

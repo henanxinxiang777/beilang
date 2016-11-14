@@ -1,0 +1,84 @@
+.sign-in{
+    margin: 200px 0 0 150px;
+    li{
+        width: 50%;
+        float: left;
+        .logo{
+            width: 100%;
+            border-bottom: 1px solid #01B180;
+            padding: 10px 0;
+        }
+        .h2{
+            text-align: center;
+            font-size: 30px;
+        }
+        input{
+            margin: 10px 0 10px 25px;
+        }
+        input[type="text"]{
+            border: 1px solid #ccc;
+            font-size: 16px;
+            width: 460px;
+            background-color: #99e1cd;
+            height: 45px;
+        }
+        input[type="submit"]{
+            width: 460px;
+            height: 45px;
+            border-radius: 5px;
+            background-color: #01B180;
+            color: #fff;
+            font-size: 22px;
+        }
+        .border{
+            border-bottom: 1px solid #01B180;
+        }
+        span{
+            display: inline-block;
+            width: 145px;
+            height: 25px;
+            border: 1px solid #000;
+            text-align: center;
+            line-height: 25px;
+            margin: 20px 10px 0 0;
+        }
+        .span{
+            margin-left: 25px;
+        }
+    }
+    li:nth-child(2){
+        width: 510px;
+    }
+    .zc{
+        .text{
+            width: 70px;
+            text-align: right;
+            font-size: 16px;
+            line-height: 41px;
+        }
+        .input-text{
+            position: relative;
+            width: 440px;
+            input{
+                width: 400px;
+                background-color: #fff;
+                border: 1px solid #01B180;
+                margin: 10px 0 0 14px;
+                height: 30px;
+            }
+            .yzm{
+                width: 100px;
+                background-color: #01B180;
+                position: absolute;
+                right: 26px;
+                border-radius: initial;
+                font-size: 16px;
+            }
+            .zc{
+                width: 400px;
+                background-color: #01B180;
+                height: 50px;
+            }
+        }
+    }
+}

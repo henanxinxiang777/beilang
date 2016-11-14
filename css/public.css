@@ -1,0 +1,75 @@
+body, body * { margin: 0; padding: 0; outline: none; border: none; list-style: none; }
+
+body { font-size: 12px; }
+
+a { color: #000; text-decoration: none; }
+
+a:hover { color: #000; text-decoration: none; }
+
+.clear { clear: both; display: block; overflow: hidden; visibility: hidden; width: 0; height: 0; }
+
+.clearfix:before, .clearfix:after { content: '.'; display: block; overflow: hidden; visibility: hidden; font-size: 0; line-height: 0; width: 0; height: 0; }
+
+.clearfix:after { clear: both; }
+
+.clearfix { zoom: 1; }
+
+.fl-left { float: left; }
+
+.fl-right { float: right; }
+
+.absolute { position: absolute; }
+
+.relative { position: relative; }
+
+header { width: 100%; }
+header .top { width: 100%; height: 5px; background-color: #e6b02a; }
+header .container ul:nth-child(1) li { float: left; font-size: 16px; padding-top: 15px; padding-bottom: 15px; }
+header .container .row .col-lg-6 { padding-top: 15px; }
+header .container .row .input-group { border: none; border: 2px solid #01b180; }
+header .container .row .input-group button, header .container .row .input-group input { border: none; }
+header .container .row .input-group input { padding-right: 45px; }
+header .container .row .input-group .ss { width: 40px; height: 36px; position: absolute; background-color: #01B180; padding-top: 4px; font-size: 26px; color: #fff; top: -2px; right: 0; z-index: 10; }
+header .container .row .click-btn { box-sizing: border-box; background: #fff; margin-top: 15px; width: 70px; height: 38px; border: 2px solid #ccc; }
+header .container .row .gw { font-size: 22px; margin-top: 15px; width: 166px; height: 38px; margin-left: 24px; background-color: #ccc; line-height: 38px; }
+header .container .row .gw span:nth-child(1) { color: #f00; padding: 8px 20px 0 0; }
+header .container .row .gw span:nth-child(2) { display: inline-block; vertical-align: top; margin-top: 2px; font-size: 16px; }
+header .container .row .gw span:nth-child(3) { padding-left: 20px; font-size: 20px; color: #fff; }
+
+.container-fluid { border-bottom: 4px solid #01B180; }
+.container-fluid .container { padding-top: 10px; font-size: 16px; }
+.container-fluid .container .nav-tabs { border: 0; }
+.container-fluid .container .nav-tabs li { padding-left: 0; padding-bottom: 0; }
+.container-fluid .container .nav-tabs li a { text-align: center; border-radius: 0; color: #fff; background-color: #01B180; }
+.container-fluid .container ul:nth-child(2) { position: absolute; background-color: #01B180; width: 268px; height: 289px; z-index: 10; }
+.container-fluid .container ul:nth-child(2) li { padding: 0 15px; width: 100%; height: 45px; line-height: 45px; color: #fff; }
+.container-fluid .container ul:nth-child(2) li:before { display: inline-block; float: right; content: " "; width: 15px; height: 22px; margin-top: 11px; background: url(../images/list-right.png) no-repeat; background-size: 15px 22px; }
+
+.nav-tc { padding: 0; position: absolute; height: 289px; background-color: #fff; z-index: 20; left: 443px; }
+.nav-tc .list-ul { width: 100%; }
+.nav-tc .list-ul li { height: 56px; }
+.nav-tc .list-ul li span { margin-top: 5px; padding: 0 15px; float: left; border-left: 1px solid #ccc; }
+.nav-tc .list-ul li .title { padding: 10px 20px 10px 10px; border: none; }
+.nav-tc .list-ul li .title:before { display: inline-block; content: " "; width: 16px; height: 16px; margin-top: 2px; background: url(../images/icon-right.png) no-repeat; float: right; }
+.nav-tc .list-ul .one { height: 50px; }
+.nav-tc .list-ul .one span { margin-top: 10px; }
+.nav-tc .list-ul .one span:nth-child(1) { margin-top: 0px; }
+
+.tab { padding-top: 20px; }
+.tab .tab-list { background: #01B180; text-align: center; }
+.tab .tab-list li { float: left; font-size: 16px; color: #fff; height: 44px; width: 160px; line-height: 44px; }
+.tab .tab-list .eover { background: #ccc; }
+.tab .tab li { float: left; width: 274px; height: 150px; border: 2px solid #ccc; margin: 5px; }
+
+.ks { height: 70px; border: 2px solid #01B180; font-size: 16px; }
+.ks li { text-align: center; height: 30px; float: left; width: 113px; line-height: 30px; }
+.ks .li-bgd { background: #ccc; }
+.ks li:nth-child(1) { width: 100%; background: #fff !important; }
+
+.fixed { position: fixed; left: 0; height: 40px; width: 100%; background-color: #01B180; }
+
+.fixed-top { top: 0; }
+
+.fixed-bottom { bottom: 0; }
+
+/*# sourceMappingURL=public.css.map */
